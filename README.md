@@ -97,7 +97,7 @@ No topo do script:
 | `LOGIN_USUARIO` / `LOGIN_SENHA` | Valores *fallback*. Em uso normal, o usuário e a senha vêm do front em cada ação |
 | `SECRET_KEY` | Troque o valor padrão antes de qualquer uso fora de testes |
 
-> ⚠️ **Nunca** versione credenciais reais. Mantenha `LOGIN`/`SENHA` como placeholders (ou use variáveis de ambiente / `.env` no `.gitignore`).
+>  **Nunca** versione credenciais reais. Mantenha `LOGIN`/`SENHA` como placeholders (ou use variáveis de ambiente / `.env` no `.gitignore`).
 
 ---
 
@@ -164,19 +164,5 @@ Patrimônios que não puderem ser inseridos na transferência em massa são anex
 └── README.md
 ```
 
-Sugestão de `.gitignore`:
 
-```
-.venv/
-__pycache__/
-resultado.txt
-patrimonios.txt
-Patrimonios_ruins.txt
-.env
-```
 
----
-
-## Licença
-
-Defina a licença do projeto (ex.: MIT) e adicione o arquivo `LICENSE`.
