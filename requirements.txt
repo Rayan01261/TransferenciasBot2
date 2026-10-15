@@ -1,0 +1,7 @@
+Flask
+flask-socketio
+selenium
+gunicorn
+gevent
+gevent-websocket
+PyPDF2
